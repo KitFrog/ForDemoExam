@@ -1,0 +1,13 @@
+G:\C#\TestWork\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.deps.json
+G:\C#\TestWork\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.dll
+G:\C#\TestWork\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.pdb
+G:\C#\TestWork\Models\CaptchaModel\bin\Debug\netcoreapp3.1\DataModels.dll
+G:\C#\TestWork\Models\CaptchaModel\bin\Debug\netcoreapp3.1\DataModels.pdb
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.AssemblyReference.cache
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.AssemblyInfoInputs.cache
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.AssemblyInfo.cs
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.CoreCompileInputs.cache
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.CopyComplete
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.dll
+G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.pdb

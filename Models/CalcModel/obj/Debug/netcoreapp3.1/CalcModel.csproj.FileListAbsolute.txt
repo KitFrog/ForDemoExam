@@ -1,0 +1,10 @@
+G:\C#\TestWork\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.deps.json
+G:\C#\TestWork\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.dll
+G:\C#\TestWork\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.pdb
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.csproj.AssemblyReference.cache
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.AssemblyInfoInputs.cache
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.AssemblyInfo.cs
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.csproj.CoreCompileInputs.cache
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.dll
+G:\C#\TestWork\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.pdb

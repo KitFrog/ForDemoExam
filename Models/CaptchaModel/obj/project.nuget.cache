@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "O1z32kMkUA0zjPS/fXRwG5coFXC2w85BzK9UjTKzeswqSpDLX17oRlrr5l6H+yF8zeO3ORZrmllQ/Uyl6V2/TQ==",
+  "success": true,
+  "projectFilePath": "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\popovns\\.nuget\\packages\\captchagen.skiasharp\\1.0.3\\captchagen.skiasharp.1.0.3.nupkg.sha512",
+    "C:\\Users\\popovns\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\popovns\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\1.68.1.1\\skiasharp.nativeassets.linux.nodependencies.1.68.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

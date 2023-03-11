@@ -1,0 +1,117 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CaptchaModel/1.0.0": {
+        "dependencies": {
+          "CaptchaGen.SkiaSharp": "1.0.3",
+          "DataModels": "1.0.0"
+        },
+        "runtime": {
+          "CaptchaModel.dll": {}
+        }
+      },
+      "CaptchaGen.SkiaSharp/1.0.3": {
+        "dependencies": {
+          "SkiaSharp": "1.68.1.1",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "1.68.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/CaptchaGen.SkiaSharp.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "SkiaSharp/1.68.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {
+            "assemblyVersion": "1.68.0.0",
+            "fileVersion": "1.68.1.1"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "rid": "tizen-armel",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "rid": "tizen-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.1.1": {
+        "dependencies": {
+          "SkiaSharp": "1.68.1.1"
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "DataModels/1.0.0": {
+        "runtime": {
+          "DataModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CaptchaModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CaptchaGen.SkiaSharp/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Yv5hOiYyPG0C3RMYh9Xx1WDDjBngygJKBsemabBvGZxpTQulbY27rmq1S/lnHnKiraAIK+bX8c8IiUeA66W5Tw==",
+      "path": "captchagen.skiasharp/1.0.3",
+      "hashPath": "captchagen.skiasharp.1.0.3.nupkg.sha512"
+    },
+    "SkiaSharp/1.68.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fJteGIKAMmLD9tSQgdvZqLqECub6B55pK1MH5QyanLOr8JQ8uUMKKcrAcpocNnmIS/YsUJOL4AD7dO6mAwP7mQ==",
+      "path": "skiasharp/1.68.1.1",
+      "hashPath": "skiasharp.1.68.1.1.nupkg.sha512"
+    },
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DXw4kU/B83hZjA2IC8viEFROTSXGEr8flIAKhh/Js1C64O7x+fKGoKVQILBgCIEwQa7PXL9nsE0IyZdDim9Mew==",
+      "path": "skiasharp.nativeassets.linux.nodependencies/1.68.1.1",
+      "hashPath": "skiasharp.nativeassets.linux.nodependencies.1.68.1.1.nupkg.sha512"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "aDr+XBZEw1yHgpdmaOTn67Hzuos7gpDZdJwvMvgr4KFTcwcyfIaT5hhEN+D77p+irgf1oG48aP2WP2ReVvMwkg==",
+  "success": true,
+  "projectFilePath": "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\popovns\\.nuget\\packages\\captchagen.skiasharp\\1.0.3\\captchagen.skiasharp.1.0.3.nupkg.sha512",
+    "C:\\Users\\popovns\\.nuget\\packages\\skiasharp\\1.68.1.1\\skiasharp.1.68.1.1.nupkg.sha512",
+    "C:\\Users\\popovns\\.nuget\\packages\\skiasharp.nativeassets.linux.nodependencies\\1.68.1.1\\skiasharp.nativeassets.linux.nodependencies.1.68.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

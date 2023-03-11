@@ -1,0 +1,286 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CaptchaGen.SkiaSharp/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.1.1",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "1.68.1.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/CaptchaGen.SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/CaptchaGen.SkiaSharp.dll": {}
+        }
+      },
+      "SkiaSharp/1.68.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.3/SkiaSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/SkiaSharp.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/osx/native/libSkiaSharp.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/tizen-armel/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-armel"
+          },
+          "runtimes/tizen-x86/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "tizen-x86"
+          },
+          "runtimes/win-x64/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/libSkiaSharp.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.1.1": {
+        "type": "package",
+        "dependencies": {
+          "SkiaSharp": "1.68.1.1"
+        },
+        "compile": {
+          "lib/netstandard/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/libSkiaSharp.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "CalcModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CalcModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalcModel.dll": {}
+        }
+      },
+      "CaptchaModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "CaptchaGen.SkiaSharp": "1.0.3",
+          "DataModels": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CaptchaModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CaptchaModel.dll": {}
+        }
+      },
+      "DataModels/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/DataModels.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CaptchaGen.SkiaSharp/1.0.3": {
+      "sha512": "Yv5hOiYyPG0C3RMYh9Xx1WDDjBngygJKBsemabBvGZxpTQulbY27rmq1S/lnHnKiraAIK+bX8c8IiUeA66W5Tw==",
+      "type": "package",
+      "path": "captchagen.skiasharp/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "captchagen.skiasharp.1.0.3.nupkg.sha512",
+        "captchagen.skiasharp.nuspec",
+        "lib/netstandard2.0/CaptchaGen.SkiaSharp.dll"
+      ]
+    },
+    "SkiaSharp/1.68.1.1": {
+      "sha512": "fJteGIKAMmLD9tSQgdvZqLqECub6B55pK1MH5QyanLOr8JQ8uUMKKcrAcpocNnmIS/YsUJOL4AD7dO6mAwP7mQ==",
+      "type": "package",
+      "path": "skiasharp/1.68.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.targets",
+        "build/tizen40/SkiaSharp.targets",
+        "buildTransitive/net45/SkiaSharp.targets",
+        "lib/MonoAndroid/SkiaSharp.dll",
+        "lib/MonoAndroid/SkiaSharp.xml",
+        "lib/Xamarin.Mac20/SkiaSharp.dll",
+        "lib/Xamarin.Mac20/SkiaSharp.xml",
+        "lib/Xamarin.TVOS/SkiaSharp.dll",
+        "lib/Xamarin.TVOS/SkiaSharp.xml",
+        "lib/Xamarin.WatchOS/SkiaSharp.dll",
+        "lib/Xamarin.WatchOS/SkiaSharp.xml",
+        "lib/Xamarin.iOS/SkiaSharp.dll",
+        "lib/Xamarin.iOS/SkiaSharp.xml",
+        "lib/net45/SkiaSharp.dll",
+        "lib/net45/SkiaSharp.xml",
+        "lib/netstandard1.3/SkiaSharp.dll",
+        "lib/netstandard1.3/SkiaSharp.xml",
+        "lib/tizen40/SkiaSharp.dll",
+        "lib/tizen40/SkiaSharp.xml",
+        "lib/uap10.0/SkiaSharp.dll",
+        "lib/uap10.0/SkiaSharp.xml",
+        "runtimes/osx/native/libSkiaSharp.dylib",
+        "runtimes/tizen-armel/native/libSkiaSharp.so",
+        "runtimes/tizen-x86/native/libSkiaSharp.so",
+        "runtimes/win-x64/native/libSkiaSharp.dll",
+        "runtimes/win-x86/native/libSkiaSharp.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-arm/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x64/nativeassets/uap10.0/libSkiaSharp.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libEGL.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libGLESv2.dll",
+        "runtimes/win10-x86/nativeassets/uap10.0/libSkiaSharp.dll",
+        "skiasharp.1.68.1.1.nupkg.sha512",
+        "skiasharp.nuspec",
+        "xamarin.interactive/SkiaSharp.Workbooks.dll"
+      ]
+    },
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/1.68.1.1": {
+      "sha512": "DXw4kU/B83hZjA2IC8viEFROTSXGEr8flIAKhh/Js1C64O7x+fKGoKVQILBgCIEwQa7PXL9nsE0IyZdDim9Mew==",
+      "type": "package",
+      "path": "skiasharp.nativeassets.linux.nodependencies/1.68.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "THIRD-PARTY-NOTICES.txt",
+        "build/net45/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
+        "buildTransitive/net45/SkiaSharp.NativeAssets.Linux.NoDependencies.targets",
+        "lib/net45/_._",
+        "lib/netstandard/_._",
+        "runtimes/linux-x64/native/libSkiaSharp.so",
+        "skiasharp.nativeassets.linux.nodependencies.1.68.1.1.nupkg.sha512",
+        "skiasharp.nativeassets.linux.nodependencies.nuspec"
+      ]
+    },
+    "CalcModel/1.0.0": {
+      "type": "project",
+      "path": "../Models/CalcModel/CalcModel.csproj",
+      "msbuildProject": "../Models/CalcModel/CalcModel.csproj"
+    },
+    "CaptchaModel/1.0.0": {
+      "type": "project",
+      "path": "../Models/CaptchaModel/CaptchaModel.csproj",
+      "msbuildProject": "../Models/CaptchaModel/CaptchaModel.csproj"
+    },
+    "DataModels/1.0.0": {
+      "type": "project",
+      "path": "../Models/DataModels/DataModels.csproj",
+      "msbuildProject": "../Models/DataModels/DataModels.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CalcModel >= 1.0.0",
+      "CaptchaModel >= 1.0.0",
+      "DataModels >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\popovns\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
+      "projectName": "DemoLight.WpfView",
+      "projectPath": "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
+      "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
+      "outputPath": "G:\\C#\\TestWork\\DemoLight.WpfView\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "\\\\iscsi\\profiles\\popovns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj": {
+              "projectPath": "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj"
+            },
+            "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj": {
+              "projectPath": "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj"
+            },
+            "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj": {
+              "projectPath": "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

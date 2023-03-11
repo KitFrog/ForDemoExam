@@ -1,0 +1,10 @@
+G:\C#\TestWork\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.deps.json
+G:\C#\TestWork\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.dll
+G:\C#\TestWork\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.pdb
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.csproj.AssemblyReference.cache
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.AssemblyInfoInputs.cache
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.AssemblyInfo.cs
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.csproj.CoreCompileInputs.cache
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.dll
+G:\C#\TestWork\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.pdb
