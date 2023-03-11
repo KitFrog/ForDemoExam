@@ -7,8 +7,10 @@
         <Setter Property="FontFamily" Value="Segoe UI Symbol"/>
     </Style>
     <Style x:Key="TurnedSymbolLbl" BasedOn="{StaticResource SymbolLbl}" TargetType="Label">
-        <Setter Property="">
-            
+        <Setter Property="LayoutTransform">
+            <Setter.Value>
+                <RotateTransform Angle="90" />
+            </Setter.Value>
         </Setter>
     </Style>
 </ResourceDictionary>

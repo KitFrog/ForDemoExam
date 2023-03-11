@@ -15,7 +15,7 @@
         <TextBox Height="24" Width="70" Text="{Binding X}"/>        
         <Label Style="{StaticResource SymbolLbl}" Content="&#xE109;" />
         <TextBox Height="24" Width="70" Text="{Binding Y}"/>
-        <Label Style="{StaticResource SymbolLbl}" Content="&#xE103;" />
+        <Label Style="{StaticResource TurnedSymbolLbl}" Content="&#xE103;"/>
         <TextBox Height="24" Width="70" Text="{Binding Result,Mode=OneWay}" IsReadOnly="True"/>
     </StackPanel>
 </Page>
