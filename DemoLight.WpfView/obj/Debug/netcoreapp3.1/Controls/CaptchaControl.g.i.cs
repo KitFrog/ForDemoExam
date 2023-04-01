@@ -61,7 +61,7 @@ namespace DemoLight.WpfView.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/DemoLight.WpfView;component/controls/captchacontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/DemoLight.WpfView;V1.0.0.0;component/controls/captchacontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\CaptchaControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

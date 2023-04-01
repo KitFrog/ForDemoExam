@@ -6,14 +6,14 @@ namespace DemoLight.WpfView.ViewModels.Vms
 {
     class CalcViewModel : ViewModelBase
     {
-        private readonly Func<int, int, int> GetResult = CalcModel.Calc.Sum;
-        private int x;
-        public int X { get => x; set
+        private readonly Func<string, string, int> GetResult = CalcModel.Calc.Sum;
+        private string x = string.Empty;
+        public string X { get => x; set
             {
                 if (SetField(ref x, value)) SetResult();
             } }
-        private int y;
-        public int Y
+        private string y = string.Empty;
+        public string Y
         {
             get => y; set
             {

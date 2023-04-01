@@ -15,6 +15,7 @@
     <StackPanel VerticalAlignment="Center">
         <controls:CaptchaControl/>
         <Label Content="{Binding CaptchaOk, UpdateSourceTrigger=PropertyChanged}"/>
-        <Button Command="{Binding GotoCalc}" />
+        <Button Command="{Binding GotoCalc}" Height="49" Width="62" Content="Next page"/>
     </StackPanel>
+    
 </Page>
