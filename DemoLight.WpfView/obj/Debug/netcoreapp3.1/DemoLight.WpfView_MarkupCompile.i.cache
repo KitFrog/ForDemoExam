@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-G:\C#\TestWork\DemoLight.WpfView\obj\Debug\netcoreapp3.1\
+G:\C#\ForDemoExam\DemoLight.WpfView\obj\Debug\netcoreapp3.1\
 DemoLight.WpfView
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-G:\C#\TestWork\DemoLight.WpfView\App.xaml
+G:\C#\ForDemoExam\DemoLight.WpfView\App.xaml
 785675995
 
 172140269290
-2182110566436
+226-345919060
 Controls\CaptchaControl.xaml;DemoLightWin.xaml;Helpers\Dictionaries\CoreDictionary.xaml;Helpers\Dictionaries\StiliesDictionary.xaml;Pages\Calc.xaml;Pages\Login.xaml;Pages\Start.xaml;
 
 True

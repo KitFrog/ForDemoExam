@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataModels
 {
-    class DataContext
+    class DataContext : DbContext
     {
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Message> Messages { get; set; } = null!;
@@ -42,4 +42,5 @@ namespace DataModels
             modelBuilder.Entity<User>().HasData(User.Admin);
             modelBuilder.Entity<User>().HasData(User.Guest);
         }
+    }
 }

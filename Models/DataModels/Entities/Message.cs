@@ -1,17 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataModels.Entities
 {
-    [PrimaryKey(nameof(Id))]
+    
     public class Message
     {
-        public long Id { get; init; }
+        [Key]
+        public long Id { get; set; }
 
-        public int UserId { get; init; }
-        public User? User { get; init; }
+        public int UserId { get; set; }
+        public User? User { get; set; }
 
-        public DateTime PublishTime { get; set; } = DateTime.Now;
+        public DateTime PublishTime { get; set; } = DateTime.Now;   
 
         [MinLength(4), MaxLength(128)] public string? Title { get; set; }
 

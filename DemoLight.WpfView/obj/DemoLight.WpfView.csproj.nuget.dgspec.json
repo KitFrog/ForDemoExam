@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj": {}
+    "G:\\C#\\ForDemoExam\\DemoLight.WpfView\\DemoLight.WpfView.csproj": {}
   },
   "projects": {
-    "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj": {
+    "G:\\C#\\ForDemoExam\\DemoLight.WpfView\\DemoLight.WpfView.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
+        "projectUniqueName": "G:\\C#\\ForDemoExam\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
         "projectName": "DemoLight.WpfView",
-        "projectPath": "G:\\C#\\TestWork\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
+        "projectPath": "G:\\C#\\ForDemoExam\\DemoLight.WpfView\\DemoLight.WpfView.csproj",
         "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
-        "outputPath": "G:\\C#\\TestWork\\DemoLight.WpfView\\obj\\",
+        "outputPath": "G:\\C#\\ForDemoExam\\DemoLight.WpfView\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,14 +35,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj": {
-                "projectPath": "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj"
+              "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {
+                "projectPath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj"
               },
-              "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj": {
-                "projectPath": "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj"
+              "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\CaptchaModel.csproj": {
+                "projectPath": "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\CaptchaModel.csproj"
               },
-              "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj": {
-                "projectPath": "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj"
+              "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {
+                "projectPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj"
               }
             }
           }
@@ -78,14 +78,14 @@
         }
       }
     },
-    "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj": {
+    "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj",
+        "projectUniqueName": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
         "projectName": "CalcModel",
-        "projectPath": "G:\\C#\\TestWork\\Models\\CalcModel\\CalcModel.csproj",
+        "projectPath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
         "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
-        "outputPath": "G:\\C#\\TestWork\\Models\\CalcModel\\obj\\",
+        "outputPath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -139,14 +139,14 @@
         }
       }
     },
-    "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj": {
+    "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\CaptchaModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj",
+        "projectUniqueName": "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\CaptchaModel.csproj",
         "projectName": "CaptchaModel",
-        "projectPath": "G:\\C#\\TestWork\\Models\\CaptchaModel\\CaptchaModel.csproj",
+        "projectPath": "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\CaptchaModel.csproj",
         "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
-        "outputPath": "G:\\C#\\TestWork\\Models\\CaptchaModel\\obj\\",
+        "outputPath": "G:\\C#\\ForDemoExam\\Models\\CaptchaModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -170,8 +170,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj": {
-                "projectPath": "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj"
+              "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {
+                "projectPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj"
               }
             }
           }
@@ -210,14 +210,14 @@
         }
       }
     },
-    "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj": {
+    "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj",
+        "projectUniqueName": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
         "projectName": "DataModels",
-        "projectPath": "G:\\C#\\TestWork\\Models\\DataModels\\DataModels.csproj",
+        "projectPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
         "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
-        "outputPath": "G:\\C#\\TestWork\\Models\\DataModels\\obj\\",
+        "outputPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -253,9 +253,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.17, )"
             }
           },
           "imports": [

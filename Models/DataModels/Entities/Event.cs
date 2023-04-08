@@ -1,12 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using DataModels.Entities.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataModels.Entities
 {
-    [PrimaryKey(nameof(Id))]
     public class Event
     {
+        [Key]
         public int Id { get; set; }
 
         public DateTime StartedAt { get; set; }

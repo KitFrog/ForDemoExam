@@ -1,12 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataModels.Entities
 {
-    [PrimaryKey(nameof(Id))]
     public class Place
     {
-        public int Id { get; init; }
+        [Key]
+        public int Id { get; set; }
 
         [Required]
         [MinLength(1), MaxLength(500)]

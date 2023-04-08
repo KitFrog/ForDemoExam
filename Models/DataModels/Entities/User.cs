@@ -1,13 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using DataModels.Entities.Enums;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataModels.Entities
 {
-    [PrimaryKey(nameof(Id))]
     public class User
     {
-        public int Id { get; init; }
+        [Key]
+        public int Id { get; set; }
 
         [Required] public RoleEnum Role { get; set; }
 
@@ -36,23 +37,34 @@ namespace DataModels.Entities
         public virtual IList<Event> OrganizerEvents { get; set; } = new List<Event>();
         public virtual IList<Event> MustBeChangedEvents { get; set; } = new List<Event>();
 
-        public static User Guest => new()
+        public static User Guest
         {
-            Id = -1,
-            Role = RoleEnum.Guest,
-            FullName = "Гость",
-            Email = "guest@guest.guest",
-            PhoneNumber = "0"
-        };
+            get
+            {
+                var guest = new User();
+                guest.Id = -1;
+                guest.Role = RoleEnum.Guest;
+                guest.FullName = "Гость";
+                guest.Email = "guest@guest.guest";
+                guest.PhoneNumber = "0";
+                return guest;
+            }
+        }
 
-        public static User Admin => new()
+
+        public static User Admin
         {
-            Id = 1,
-            Role = RoleEnum.Admin,
-            FullName = "admin",
-            PasswordHash = Helpers.GetHashString("admin"),
-            Email = "MustChange@Must.Change",
-            PhoneNumber = "MustChange"
-        };
+            get
+            {
+                var admin = new User();
+                admin.Id = 1;
+                admin.Role = RoleEnum.Admin;
+                admin.FullName = "admin";
+                admin.Email = "MustChange@Must.Change";
+                admin.PhoneNumber = "MustChange";
+                admin.PasswordHash = Helpers.GetHashString("admin");
+                return admin;
+            }
+        }
     }
 }
