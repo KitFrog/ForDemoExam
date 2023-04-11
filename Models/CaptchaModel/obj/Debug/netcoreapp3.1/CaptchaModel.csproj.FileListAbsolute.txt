@@ -11,3 +11,16 @@ G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.C
 G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.CopyComplete
 G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.dll
 G:\C#\TestWork\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.pdb
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.deps.json
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.dll
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\bin\Debug\netcoreapp3.1\CaptchaModel.pdb
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\bin\Debug\netcoreapp3.1\DataModels.dll
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\bin\Debug\netcoreapp3.1\DataModels.pdb
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.AssemblyReference.cache
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.GeneratedMSBuildEditorConfig.editorconfig
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.AssemblyInfoInputs.cache
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.AssemblyInfo.cs
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.CoreCompileInputs.cache
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.csproj.CopyComplete
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.dll
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CaptchaModel\obj\Debug\netcoreapp3.1\CaptchaModel.pdb

@@ -1,28 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {}
+    "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {}
   },
   "projects": {
-    "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {
+    "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
+        "projectUniqueName": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
         "projectName": "DataModels",
-        "projectPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
-        "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
-        "outputPath": "G:\\C#\\ForDemoExam\\Models\\DataModels\\obj\\",
+        "projectPath": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\DataModels\\DataModels.csproj",
+        "packagesPath": "C:\\Users\\KiT\\.nuget\\packages\\",
+        "outputPath": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\DataModels\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "\\\\iscsi\\profstud\\popovns\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\KiT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -79,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
         }
       }
     }

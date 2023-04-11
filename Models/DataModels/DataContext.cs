@@ -12,8 +12,10 @@ namespace DataModels
 
         public DataContext() => Database.EnsureCreated();
 
+        public const string DataSource = @"C:\\Data\\data.db";
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-            optionsBuilder.UseSqlite("Data Source=C:\\Data\\data.db");
+            optionsBuilder.UseSqlite("Data source="+DataSource);//"Data Source=C:\\Data\\data.db");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

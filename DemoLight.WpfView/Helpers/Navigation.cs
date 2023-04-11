@@ -17,7 +17,7 @@ namespace DemoLight.WpfView.Helpers
             NavigateTo.Start => new Start(),
             NavigateTo.Login => new Login(),
             NavigateTo.Calc => new Calc(),
-            //NavigateTo.Registration => new RegistrationPage(),
+            NavigateTo.Registration => new Registration(),
             //NavigateTo.AdminArea => new AdminPage(),
             //NavigateTo.UserArea => new UserPage(),
             _ => throw new NotImplementedException()
