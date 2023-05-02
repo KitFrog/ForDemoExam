@@ -153,3 +153,4 @@ I:\Типа рабочий стол\утилиты\C#\ForDemoExam\DemoLight.WpfV
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\DemoLight.WpfView\obj\Debug\netcoreapp3.1\DemoLight.WpfView.pdb
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\DemoLight.WpfView\obj\Debug\netcoreapp3.1\DemoLight.WpfView.genruntimeconfig.cache
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\DemoLight.WpfView\obj\Debug\netcoreapp3.1\Pages\Registration.g.cs
+I:\Типа рабочий стол\утилиты\C#\ForDemoExam\DemoLight.WpfView\obj\Debug\netcoreapp3.1\Pages\Registration.baml

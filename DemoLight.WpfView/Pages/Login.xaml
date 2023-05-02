@@ -3,11 +3,29 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      mc:Ignorable="d" 
+      xmlns:local="clr-namespace:DemoLight.WpfView.Pages"
+      xmlns:vm="clr-namespace:DemoLight.WpfView.ViewModels.Vms"
+      mc:Ignorable="d"
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Login">
-
-    <Grid>
-        
+    <Grid HorizontalAlignment="Right" Width="800">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.35*"/>
+            <ColumnDefinition Width="0.30*"/>
+            <ColumnDefinition Width="0.35*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="126*"/>
+            <RowDefinition Height="197*"/>
+            <RowDefinition Height="127*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+            <Label Content="Имя пользователя:"/>
+            <TextBox  Height="{Binding ElementName=PassBox, Path=Height}"/>
+            <Label Content="Пароль:"/>
+            <PasswordBox x:Name="PassBox"/>
+            <Button Content="Войти" Margin="0,4,0,0" Command="{Binding Login}"/>
+            <Button Content="Регистрация" Height="19.96" Click="Button_Click"/>
+        </StackPanel>
     </Grid>
 </Page>

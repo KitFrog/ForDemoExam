@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DemoLight.WpfView.ViewModels.Inerfaces
 {
-    internal interface IErrorHundler
+    public interface IErrorHundler
     {
         void ErrorHundle(Exception e);
     }

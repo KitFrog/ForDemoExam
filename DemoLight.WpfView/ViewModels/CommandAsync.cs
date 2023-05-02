@@ -7,16 +7,16 @@ using System.Windows.Input;
 
 namespace DemoLight.WpfView.ViewModels
 {
-    internal class CommandAsync : ICommandAsync
+    public class CommandAsync : ICommandAsync
     {
         public event EventHandler? CanExecuteChanged;
 
         private readonly Func<Task> execute;
         private readonly Func<bool>? canExecute;
         private bool isExecuting;
-        private IErrorHundler errorHundler;
+        private IErrorHundler? errorHundler;
 
-        public CommandAsync(Func<Task> execute, Func<bool>? canExecute, IErrorHundler errorHundler)
+        public CommandAsync(Func<Task> execute, Func<bool>? canExecute, IErrorHundler? errorHundler)
         {
             this.execute = execute;
             this.canExecute = canExecute;

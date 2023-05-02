@@ -17,22 +17,21 @@
             <ColumnDefinition Width="0.35*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="0.28*"/>
-            <RowDefinition Height="0.38*"/>
-            <RowDefinition Height="0.34*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="7*"/>
         </Grid.RowDefinitions>
-        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical">
+        <StackPanel Grid.Row="1" Grid.Column="1" Orientation="Vertical" Margin="0,0,0,1">
             <Label Content="Имя пользователя:"/>
             <TextBox Text="{Binding SelectedName, Mode=OneWayToSource, UpdateSourceTrigger=PropertyChanged}"/>
             <Label Content="Пароль:"/>
-            <PasswordBox x:Name="PassBox" PasswordChanged="PassBox_PasswordChanged"/>
+            <PasswordBox x:Name="PassBox" PasswordChanged="PasswordBox_PasswordChanged"/>
             <Label Content="Подтвердите пароль:"/>
-            <PasswordBox x:Name="ConfPassBox" PasswordChanged="ConfPassBox_PasswordChanged"/>
+            <PasswordBox x:Name="ConfPassBox" PasswordChanged="PasswordBox_PasswordChanged"/>
             <StackPanel Orientation="Horizontal">
                 <Button Content="Регистрация" Margin="0,4,0,0" Width="100"
                         Command="{Binding ReginAsync, UpdateSourceTrigger=PropertyChanged}"/>
-                <Button Content="⮑" Margin="8,4,0,0" FontWeight="Bold" Width="28"
-                        Command="{Binding ReginExit}"/>
+                <Button Content="⮑" Margin="8,4,0,0" FontWeight="Bold" Width="28" Click="Button_Click" Command="{Binding ReginExit}"/>
             </StackPanel>
 
         </StackPanel>

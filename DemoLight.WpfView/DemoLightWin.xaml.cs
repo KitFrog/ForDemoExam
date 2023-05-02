@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using DemoLight.WpfView.Helpers;
+using DemoLight.WpfView.ViewModels.Vms;
 
 namespace DemoLight.WpfView
 {
@@ -12,6 +13,16 @@ namespace DemoLight.WpfView
         {
             InitializeComponent();
             Navigation.Navigate(NavigateTo.Start, this);
+        }
+
+        private static DataViewModel data;
+        public static DataViewModel Data
+        {
+            get
+            {
+                data = data ?? new DataViewModel();
+                return data;
+            }
         }
     }
 }

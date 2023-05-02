@@ -12,9 +12,9 @@ namespace DemoLight.WpfView.Pages
         public Start()
         {
             InitializeComponent();
-            if(DataContext is CaptchaViewModelTest context)
+            if (DataContext is CaptchaViewModelTest context)
             {
-                context.CalcAction = ()=> Helpers.Navigation.Navigate(NavigateTo.Login, this);
+                context.LoginAction = () => Helpers.Navigation.Navigate(NavigateTo.Login, this);
             }
         }
     }

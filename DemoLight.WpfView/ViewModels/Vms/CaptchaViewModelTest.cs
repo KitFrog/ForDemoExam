@@ -4,17 +4,23 @@ namespace DemoLight.WpfView.ViewModels.Vms
 {
     internal class CaptchaViewModelTest : CaptchaViewModel
     {
-        public Action? CalcAction { private get; set; }
-        public CommonCommand GotoCalc { get; }
+        public Action? LoginAction { private get; set; }
+        public Action? RegisterAction { private get; set; }
+        public CommonCommand GotoLogin { get; }
+        public CommonCommand GotoRegister { get; } 
 
         public CaptchaViewModelTest()
         {
-            GotoCalc = new CommonCommand(() =>
+            GotoLogin = new CommonCommand(() =>
             {
                 if (CaptchaOk)
                 {
-                    CalcAction?.Invoke();
+                    LoginAction?.Invoke();
                 }
+            });
+            GotoRegister = new CommonCommand(() =>
+            {
+                RegisterAction?.Invoke();
             });
         }
     }

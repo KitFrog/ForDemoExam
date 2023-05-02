@@ -7,9 +7,10 @@ namespace DemoLight.WpfView.ViewModels
     {
         private readonly Action _execute;
         private readonly Func<bool>? _canExecute;
-
-        public CommonCommand(Action execute, Func<bool>? canExecute = null)
+        public Inerfaces.IErrorHundler? ErrorHundler { get; set; }
+        public CommonCommand(Action execute, Func<bool>? canExecute = null, Inerfaces.IErrorHundler? errorHundler = null)
         {
+            ErrorHundler = errorHundler;
             _execute = execute;
             _canExecute = canExecute;
         }

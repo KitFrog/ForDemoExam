@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using DataModels;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 namespace DemoLight.WpfView.ViewModels
 {
-    internal abstract class ViewModelBase : INotifyPropertyChanged
+    public abstract class ViewModelBase : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler? PropertyChanged;
 
