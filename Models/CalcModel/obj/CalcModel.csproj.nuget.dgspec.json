@@ -1,21 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {}
+    "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {}
   },
   "projects": {
-    "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {
+    "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
+        "projectUniqueName": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
         "projectName": "CalcModel",
-        "projectPath": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
-        "packagesPath": "C:\\Users\\KiT\\.nuget\\packages\\",
-        "outputPath": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\obj\\",
+        "projectPath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
+        "packagesPath": "C:\\Users\\popovns\\.nuget\\packages\\",
+        "outputPath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\KiT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "\\\\iscsi\\profiles\\popovns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -54,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.307\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.410\\RuntimeIdentifierGraph.json"
         }
       }
     }

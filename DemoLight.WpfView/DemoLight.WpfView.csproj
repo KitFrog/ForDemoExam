@@ -8,6 +8,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <None Remove="ViewModels\Vms\CaptchaViewModelTest.cs~RF368f77.TMP" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectReference Include="..\Models\CalcModel\CalcModel.csproj" />
 		<ProjectReference Include="..\Models\CaptchaModel\CaptchaModel.csproj" />
 		<ProjectReference Include="..\Models\DataModels\DataModels.csproj" />

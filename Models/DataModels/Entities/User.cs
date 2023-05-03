@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using DataModels.Entities.Enums;
 using Microsoft.EntityFrameworkCore;
 
@@ -23,7 +24,8 @@ namespace DataModels.Entities
         [Required] public string PhoneNumber { get; set; } = string.Empty;
 
         public SexEnum? Sex { get; set; }
-
+        [ForeignKey("DateOnlyId")]
+        //public int BirthdayId { get; set; }
         public DateOnly? Birthday { get; set; }
 
         public int? PlaceId { get; set; }
@@ -52,7 +54,7 @@ namespace DataModels.Entities
         }
 
 
-        public static User Admin
+        public static User Admin    
         {
             get
             {

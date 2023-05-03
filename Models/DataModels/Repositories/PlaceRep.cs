@@ -16,7 +16,7 @@ namespace DataModels.Repositories
         public PlaceRep(DataContext context)
             => this._context = context;
 
-        public IQueryable<Place> Places => throw new NotImplementedException();
+        public IQueryable<Place> Places => _context.Places;
 
         public Task DeleteAsync(Place iditem) => Task.Run(() =>
         {

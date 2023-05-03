@@ -18,3 +18,13 @@ I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\DataMod
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.csproj.CoreCompileInputs.cache
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.dll
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.pdb
+G:\C#\ForDemoExam\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.deps.json
+G:\C#\ForDemoExam\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.dll
+G:\C#\ForDemoExam\Models\DataModels\bin\Debug\netcoreapp3.1\DataModels.pdb
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.csproj.AssemblyReference.cache
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.AssemblyInfoInputs.cache
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.AssemblyInfo.cs
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.csproj.CoreCompileInputs.cache
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.dll
+G:\C#\ForDemoExam\Models\DataModels\obj\Debug\netcoreapp3.1\DataModels.pdb

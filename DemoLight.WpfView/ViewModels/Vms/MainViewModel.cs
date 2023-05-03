@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Globalization;
-using DataModels;
-using DataModels.Entities;
-using System.Collections.ObjectModel;
-using System.Threading.Tasks;
-using System.Linq;
+﻿using DataModels;
 using DemoLight.WpfView.ViewModels;
 using DemoLight.WpfView.ViewModels.Inerfaces;
 

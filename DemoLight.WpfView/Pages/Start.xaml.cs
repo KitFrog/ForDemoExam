@@ -14,7 +14,7 @@ namespace DemoLight.WpfView.Pages
             InitializeComponent();
             if (DataContext is CaptchaViewModelTest context)
             {
-                context.LoginAction = () => Helpers.Navigation.Navigate(NavigateTo.Login, this);
+                context.LoginAction = () => Navigation.Navigate(NavigateTo.Login, this);
             }
         }
     }

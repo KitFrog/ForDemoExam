@@ -16,7 +16,7 @@ namespace DataModels.Repositories
         public EventRep(DataContext context)
             => this._context = context;
 
-        public IQueryable<Event> Events => throw new NotImplementedException();
+        public IQueryable<Event> Events => _context.Events;
 
         public Task DeleteAsync(Event iditem) => Task.Run(() =>
         {

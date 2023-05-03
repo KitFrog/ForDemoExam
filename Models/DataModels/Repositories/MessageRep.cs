@@ -16,7 +16,7 @@ namespace DataModels.Repositories
         public MessageRep(DataContext context)
             => this._context = context;
 
-        public IQueryable<Message> Messages => throw new NotImplementedException();
+        public IQueryable<Message> Messages => _context.Messages;
 
         public Task DeleteAsync(Message iditem) => Task.Run(() =>
         {

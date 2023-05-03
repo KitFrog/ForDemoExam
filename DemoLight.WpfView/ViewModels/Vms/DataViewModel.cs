@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DataModels;
 using DataModels.Entities;
+using DataModels.Entities.Enums;
 using DemoLight.WpfView.ViewModels.Inerfaces;
 using Microsoft.EntityFrameworkCore;
 using ViewModels;
@@ -20,6 +21,7 @@ namespace DemoLight.WpfView.ViewModels.Vms
         private readonly DataManager model = MainViewModel.Data;
         private readonly ObservableCollection<User> users;
         public ObservableCollection<string>? Names { get; }
+        public Action LoginOk { get; internal set; }
 
         #region Commands
         public CommandAsync ReginAsync { get; }
@@ -46,13 +48,15 @@ namespace DemoLight.WpfView.ViewModels.Vms
 
         private async Task reginAsync()
         {
-            int id=0;
+            int id = 0;
             var user = new User()
             {
                 Id = id,
-                FullName = SelectedName,
-                PasswordHash = DataModels.Helpers.GetHashString(pass!),
-                Email = ""
+                Role = RoleEnum.User,
+                FullName = selectedName,
+                PasswordHash = DataModels.Helpers.GetHashString(pass),
+                Email = "user@user.user.com",
+                PhoneNumber = "0",
             };
 
             await model.UserRep.UpdateAsync(user);

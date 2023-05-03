@@ -23,7 +23,7 @@
             <Label Content="Имя пользователя:"/>
             <TextBox  Height="{Binding ElementName=PassBox, Path=Height}"/>
             <Label Content="Пароль:"/>
-            <PasswordBox x:Name="PassBox"/>
+            <PasswordBox x:Name="PassBox" PasswordChanged="PassBox_PasswordChanged"/>
             <Button Content="Войти" Margin="0,4,0,0" Command="{Binding Login}"/>
             <Button Content="Регистрация" Height="19.96" Click="Button_Click"/>
         </StackPanel>

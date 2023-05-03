@@ -36,7 +36,6 @@ namespace DataModels
                     var context = new DataContext();
                     context.Database.EnsureCreated();
                     return new DataManager(new EventRep(context), new MessageRep(context), new PlaceRep(context), new UserRep(context));
-
             }
         }
     }

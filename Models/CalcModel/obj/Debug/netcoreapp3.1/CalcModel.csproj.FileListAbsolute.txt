@@ -18,3 +18,13 @@ I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CalcMod
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.csproj.CoreCompileInputs.cache
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.dll
 I:\Типа рабочий стол\утилиты\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.pdb
+G:\C#\ForDemoExam\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.deps.json
+G:\C#\ForDemoExam\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.dll
+G:\C#\ForDemoExam\Models\CalcModel\bin\Debug\netcoreapp3.1\CalcModel.pdb
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.csproj.AssemblyReference.cache
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.GeneratedMSBuildEditorConfig.editorconfig
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.AssemblyInfoInputs.cache
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.AssemblyInfo.cs
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.csproj.CoreCompileInputs.cache
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.dll
+G:\C#\ForDemoExam\Models\CalcModel\obj\Debug\netcoreapp3.1\CalcModel.pdb

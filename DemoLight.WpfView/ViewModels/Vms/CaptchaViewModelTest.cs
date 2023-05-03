@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DemoLight.WpfView.Helpers;
+using System;
 
 namespace DemoLight.WpfView.ViewModels.Vms
 {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h+qVlJomo7oL4hj2uhTQEkgvi3r3RnLdC6HLMX8+oQHWwKidAf2nCdUcijsaZpoB6JXhmP2jTLAZPLOZ32oaWQ==",
+  "dgSpecHash": "y0KNH2kF5geX7MjZAXgtUcRRQYXUw712ABMjDLfLVbVKeGgs7e1lKkoupZGoarj3MNmiTxardvfGOpPTUzCc6w==",
   "success": true,
-  "projectFilePath": "I:\\Типа рабочий стол\\утилиты\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
+  "projectFilePath": "G:\\C#\\ForDemoExam\\Models\\CalcModel\\CalcModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

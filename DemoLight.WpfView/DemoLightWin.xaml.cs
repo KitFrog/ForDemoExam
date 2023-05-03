@@ -1,5 +1,6 @@
 ﻿using System.Windows;
 using DemoLight.WpfView.Helpers;
+using DemoLight.WpfView.Pages;
 using DemoLight.WpfView.ViewModels.Vms;
 
 namespace DemoLight.WpfView
@@ -15,7 +16,7 @@ namespace DemoLight.WpfView
             Navigation.Navigate(NavigateTo.Start, this);
         }
 
-        private static DataViewModel data;
+        private static DataViewModel? data;
         public static DataViewModel Data
         {
             get
@@ -23,6 +24,20 @@ namespace DemoLight.WpfView
                 data = data ?? new DataViewModel();
                 return data;
             }
+        }
+
+        private static Login login;
+        public static Login Login(DemoLightWin main)
+        {
+            if (login == null)
+            {
+                login = new Login();
+                Data.LoginOk = () =>
+                {
+                    Navigation.Navigate(NavigateTo.Calc, login);
+                };
+            }
+            return login;
         }
     }
 }

@@ -5,6 +5,6 @@
         Conference,
         Forum,
         Olympiad,
-        Seminar
+        Seminar,
     }
 }

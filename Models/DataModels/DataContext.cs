@@ -10,12 +10,10 @@ namespace DataModels
         public DbSet<Place> Places { get; set; } = null!;
         public DbSet<Event> Events { get; set; } = null!;
 
-        public DataContext() => Database.EnsureCreated();
-
-        public const string DataSource = @"C:\\Data\\data.db";
+        public const string DataSource = @"C:\Data\data.db";
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-            optionsBuilder.UseSqlite("Data source="+DataSource);//"Data Source=C:\\Data\\data.db");
+            optionsBuilder.UseSqlite($"Data source = {DataSource}");
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -38,6 +36,10 @@ namespace DataModels
                 .HasMany(e => e.MustBeChangedUsers)
                 .WithMany(u => u.MustBeChangedEvents)
                 .UsingEntity(j => j.ToTable("MustBeChangedEvent"));
+
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Birthday)
+                .WithMany(d => d.Users);
 
             base.OnModelCreating(modelBuilder);
 

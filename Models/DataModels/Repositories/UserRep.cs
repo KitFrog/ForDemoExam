@@ -16,7 +16,7 @@ namespace DataModels.Repositories
         public UserRep(DataContext context)
             => this._context = context;
 
-        public IQueryable<User> Users => throw new NotImplementedException();
+        public IQueryable<User> Users => _context.Users;
 
         public Task DeleteAsync(User iditem) => Task.Run(() =>
         {
